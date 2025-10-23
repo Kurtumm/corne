@@ -61,6 +61,26 @@
             bindings = <&kp EQUAL>;
             key-positions = <17 18>;
         };
+
+        Dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <29 30>;
+        };
+
+        Ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <28 31>;
+        };
+
+        Pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <30 31>;
+        };
+
+        Exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <29 28>;
+        };
     };
 
     keymap {
